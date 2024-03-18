@@ -2,7 +2,7 @@ import React from "react";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
 
-export default function WelcomeScreen() {
+export default function WelcomeScreen({ navigation }) {
   return (
     <View style={{ flex: 1, alignItems: "center", marginTop: 180 }}>
       <Image
@@ -34,6 +34,7 @@ export default function WelcomeScreen() {
       </Text>
 
       <TouchableOpacity
+        onPress={() => navigation.navigate("RecipeList")}
         style={{
           backgroundColor: "#f96163",
           borderRadius: 18,
