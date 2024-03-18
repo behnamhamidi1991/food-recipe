@@ -25,7 +25,7 @@ const Header = ({ headerText, headerIcon }) => {
       >
         {headerText}
       </Text>
-      <Icon name="notifications-button" color={"#f96163"} />
+      <Icon name={headerIcon} color={"#f96163"} />
     </View>
   );
 };
