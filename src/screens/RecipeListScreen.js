@@ -2,6 +2,7 @@ import React from "react";
 import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 import Header from "../components/Header";
 import SearchFilter from "../components/SearchFilter";
+import CategoriesFilter from "../components/CategoryFilter";
 
 const RecipeListScreen = () => {
   return (
@@ -16,6 +17,7 @@ const RecipeListScreen = () => {
       />
 
       {/* Categories Filter */}
+      <CategoriesFilter />
     </SafeAreaView>
   );
 };
