@@ -4,9 +4,9 @@ import Icon from "react-native-ico-material-design";
 
 const SearchFilter = ({ icon, placeholder }) => {
   return (
-    <View style={{}}>
+    <View>
       <TextInput />
-      <Icon />
+      {/* <Icon iconName="searching-magnifying-glass" /> */}
     </View>
   );
 };
